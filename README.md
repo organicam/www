@@ -47,4 +47,4 @@ The collection, management and integration of health-related data for the purpos
 + [Welcome to United Nations — UNODA](https://bwc-cbm.un.org/)
 + [A hybrid multifunctional physicochemical sensor suite for continuous monitoring of crop health | Scientific Reports](https://www.nature.com/articles/s41598-023-37041-z)
 + [Ginkgo Bioworks' Technology](https://www.edpike365.com/blog/company-ginkgo-bioworks/)
-+ 
++ [BioT - Optimizing device management in the healthcare ecosystem](https://biot.webflow.io/) OPTIMIZING DEVICE  MANAGEMENT IN THE  HEALTHCARE ECOSYSTEM. track health devices in hospitals in order to quickly locate them when needed. Our technology also includes smart management and visualization of the inventory. The medical staff can then work without friction by having access to the right device at the right time.
