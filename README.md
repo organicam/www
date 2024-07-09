@@ -36,8 +36,15 @@ The collection, management and integration of health-related data for the purpos
 
 ## more
 
-+ [Massachusetts Training Center (MTC) | Asahi Kasei Bioprocess | Pioneering Biologics Safety and Manufacturing Efficiency](https://planova.ak-bio.com/mtc/)
++ [Massachusetts Training Center (MTC) - Asahi Kasei Bioprocess | Pioneering Biologics Safety and Manufacturing Efficiency](https://planova.ak-bio.com/mtc/)
 + [The circular economy and the bioeconomy — Partners in sustainability — European Environment Agency](https://www.eea.europa.eu/publications/circular-economy-and-bioeconomy)
 + [ISCB - International Society for Computational Biology](https://www.iscb.org/)
-+ [Computational and synthetic biology | CRAG | Centre for research in agricultural Genomics](https://www.cragenomica.es/research-groups/computational-and-synthetic-biology)
++ [Computational and synthetic biology - CRAG | Centre for research in agricultural Genomics](https://www.cragenomica.es/research-groups/computational-and-synthetic-biology)
++ [CDC - Bioterrorism](https://emergency.cdc.gov/bioterrorism/)
++ [Bioterrorism - Wikipedia](https://en.wikipedia.org/wiki/bioterrorism?variant=zh-cn)
++ [Bioterrorism](https://www.interpol.int/Crimes/Terrorism/Bioterrorism)
++ [Assistance and Cooperation Database - BWC Assistance and Cooperation Database](https://bwc-articlex.unog.ch/)
++ [Welcome to United Nations — UNODA](https://bwc-cbm.un.org/)
++ [A hybrid multifunctional physicochemical sensor suite for continuous monitoring of crop health | Scientific Reports](https://www.nature.com/articles/s41598-023-37041-z)
++ [Ginkgo Bioworks' Technology](https://www.edpike365.com/blog/company-ginkgo-bioworks/)
 + 
