@@ -22,6 +22,7 @@ BioWatch is a US government program to detect biological agents present in the e
 
 The collection, management and integration of health-related data for the purpose of improving detection, characterization, prevention and management of health hazards.
 
+
 ## tags
 
 + Video Surveillance Infrastructure for Life Cycle MOnitoring
@@ -30,3 +31,13 @@ The collection, management and integration of health-related data for the purpos
 + bio monitoring
 + biosurveillance
 + Lifecycle surveillance
++ biosurveillance circullal economy sustainable development
+
+
+## more
+
++ [Massachusetts Training Center (MTC) | Asahi Kasei Bioprocess | Pioneering Biologics Safety and Manufacturing Efficiency](https://planova.ak-bio.com/mtc/)
++ [The circular economy and the bioeconomy — Partners in sustainability — European Environment Agency](https://www.eea.europa.eu/publications/circular-economy-and-bioeconomy)
++ [ISCB - International Society for Computational Biology](https://www.iscb.org/)
++ [Computational and synthetic biology | CRAG | Centre for research in agricultural Genomics](https://www.cragenomica.es/research-groups/computational-and-synthetic-biology)
++ 
