@@ -1,0 +1,250 @@
+{
+  "languages": {
+    "pl": {
+      "code": "pl",
+      "name": "Polski",
+      "currency": "PLN",
+      "currencySymbol": "zł",
+      "vatRate": 23
+    },
+    "en": {
+      "code": "en",
+      "name": "English",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "vatRate": 20
+    },
+    "de": {
+      "code": "de",
+      "name": "Deutsch",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "vatRate": 19
+    },
+    "fr": {
+      "code": "fr",
+      "name": "Français",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "vatRate": 20
+    }
+  },
+  "translations": {
+    "navigation": {
+      "pl": {
+        "home": "Home",
+        "modules": "Moduły",
+        "applications": "Zastosowania",
+        "pricing": "Cennik",
+        "contact": "Kontakt"
+      },
+      "en": {
+        "home": "Home",
+        "modules": "Modules",
+        "applications": "Applications",
+        "pricing": "Pricing",
+        "contact": "Contact"
+      },
+      "de": {
+        "home": "Startseite",
+        "modules": "Module",
+        "applications": "Anwendungen",
+        "pricing": "Preise",
+        "contact": "Kontakt"
+      },
+      "fr": {
+        "home": "Accueil",
+        "modules": "Modules",
+        "applications": "Applications",
+        "pricing": "Tarifs",
+        "contact": "Contact"
+      }
+    },
+    "hero": {
+      "pl": {
+        "title": "Inteligentny System Monitoringu Rolniczego",
+        "subtitle": "Modułowe wieże monitorujące dla nowoczesnego rolnictwa",
+        "cta": "Zamów teraz"
+      },
+      "en": {
+        "title": "Intelligent Agricultural Monitoring System",
+        "subtitle": "Modular monitoring towers for modern agriculture",
+        "cta": "Order now"
+      },
+      "de": {
+        "title": "Intelligentes Landwirtschaftliches Überwachungssystem",
+        "subtitle": "Modulare Überwachungstürme für moderne Landwirtschaft",
+        "cta": "Jetzt bestellen"
+      },
+      "fr": {
+        "title": "Système Intelligent de Surveillance Agricole",
+        "subtitle": "Tours de surveillance modulaires pour l'agriculture moderne",
+        "cta": "Commander maintenant"
+      }
+    },
+    "modules": {
+      "pl": {
+        "title": "Moduły Systemu",
+        "base": {
+          "title": "Moduł Bazowy",
+          "description": "Konstrukcja nośna z PVC z uniwersalnymi mocowaniami",
+          "features": [
+            "Wysokość 3-6m",
+            "Odporność na warunki atmosferyczne",
+            "System szybkiego montażu"
+          ]
+        },
+        "power": {
+          "title": "Moduł Zasilania",
+          "description": "System fotowoltaiczny z akumulatorem",
+          "features": [
+            "Panel 200W",
+            "Akumulator 100Ah",
+            "Kontroler ładowania"
+          ]
+        },
+        "monitoring": {
+          "title": "Moduł Monitoringu",
+          "description": "System kamer i czujników",
+          "features": [
+            "Kamera HD",
+            "Noktowizja",
+            "System PTZ"
+          ]
+        }
+      },
+      "en": {
+        "title": "System Modules",
+        "base": {
+          "title": "Base Module",
+          "description": "PVC construction with universal mounts",
+          "features": [
+            "Height 3-6m",
+            "Weather resistant",
+            "Quick assembly system"
+          ]
+        },
+        "power": {
+          "title": "Power Module",
+          "description": "Photovoltaic system with battery",
+          "features": [
+            "200W Panel",
+            "100Ah Battery",
+            "Charge controller"
+          ]
+        },
+        "monitoring": {
+          "title": "Monitoring Module",
+          "description": "Camera and sensor system",
+          "features": [
+            "HD Camera",
+            "Night vision",
+            "PTZ System"
+          ]
+        }
+      }
+    },
+    "pricing": {
+      "pl": {
+        "title": "Cennik",
+        "packages": {
+          "basic": {
+            "name": "Pakiet Podstawowy",
+            "price": 9999,
+            "features": [
+              "Moduł bazowy",
+              "Moduł zasilania",
+              "System mocowań",
+              "Podstawowa kamera"
+            ]
+          },
+          "standard": {
+            "name": "Pakiet Standard",
+            "price": 14999,
+            "features": [
+              "Wszystko z pakietu podstawowego",
+              "Moduł komunikacyjny",
+              "System PTZ",
+              "Moduł sensoryczny"
+            ]
+          },
+          "premium": {
+            "name": "Pakiet Premium",
+            "price": 19999,
+            "features": [
+              "Wszystko z pakietu standard",
+              "Moduł ochronny",
+              "Kamera termowizyjna",
+              "Wsparcie 24/7"
+            ]
+          }
+        }
+      },
+      "en": {
+        "title": "Pricing",
+        "packages": {
+          "basic": {
+            "name": "Basic Package",
+            "price": 2499,
+            "features": [
+              "Base module",
+              "Power module",
+              "Mounting system",
+              "Basic camera"
+            ]
+          },
+          "standard": {
+            "name": "Standard Package",
+            "price": 3749,
+            "features": [
+              "Everything from Basic package",
+              "Communication module",
+              "PTZ system",
+              "Sensor module"
+            ]
+          },
+          "premium": {
+            "name": "Premium Package",
+            "price": 4999,
+            "features": [
+              "Everything from Standard package",
+              "Protection module",
+              "Thermal camera",
+              "24/7 support"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "exchangeRates": {
+    "PLN": {
+      "EUR": 0.25,
+      "GBP": 0.2
+    },
+    "EUR": {
+      "PLN": 4.0,
+      "GBP": 0.8
+    }
+  },
+  "shipping": {
+    "countries": {
+      "PL": {
+        "name": "Polska",
+        "shipping_cost": 499
+      },
+      "DE": {
+        "name": "Deutschland",
+        "shipping_cost": 149
+      },
+      "FR": {
+        "name": "France",
+        "shipping_cost": 149
+      },
+      "GB": {
+        "name": "United Kingdom",
+        "shipping_cost": 199
+      }
+    }
+  }
+}
