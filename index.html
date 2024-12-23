@@ -6,6 +6,110 @@
     <title>OrganicAM - Inteligentny System Monitoringu Rolniczego</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Inline favicon as base64 -->
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw8PAB7e3sAR0dHADw8PAA8PDwAPDw8ADw8PABFRUUAfX19AEdHRwAAAAAAAAAAAAAAAAAAAAAAPDw8AFpaWgCenp4Ae3t7AGJiYgA8PDwAPDw8ADw8PABdXV0Ae3t7AKKiogBgYGAAQEBAAAAAAAAAAAAAAAAAAFpaWgCenp4A////AP///wD///8ApaWlAKWlpQD///8A////AP///wCkpKQAoqKiAGBgQAAAAAAAAAAAAAAAAAB7e3sA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wB7e3sAAAAAAAAAAAAAAAAAAAAAAHt7ewB7e3sAe3t7AHt7ewCQkJAA////AJCQkAB7e3sAe3t7AHt7ewB7e3sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfHx8AkJCQAP///wCQkJAAHx8fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8fHwAfHx8AHx8fAJCQkAD///8AkJCQAB8fHwAfHx8AHx8fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8fHwAfHx8AHx8fAB8fHwCQkJAA////AJCQkAAfHx8AHx8fAB8fHwAAAAAAAAAAAAAAAAAAAAAAHx8fAB8fHwAfHx8AHx8fAB8fHwAfHx8AkJCQAP///wCQkJAAHx8fAB8fHwAfHx8AHx8fAB8fHwAfHx8AAAAAAAAAAAB7e3sA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wB7e3sAAAAAAAAAAAAAAAAAWlpaAJ6engD///8A////AP///wClpaUApaWlAP///wD///8A////AKSkpACioqIAYGBAAAAAAAAAAAAAAAAAADw8PABaWloAnp6eAHt7ewBiYmIAPDw8ADw8PAA8PDwAXV1dAHt7ewCioqIAYGBgAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" />
+    
+    <!-- Embedded configuration -->
+    <script id="appConfig" type="application/json">
+      ${JSON.stringify(config)}
+    </script>
+
+    <script>
+        // Safe initialization wrapper
+        function safeInitialize() {
+            return new Promise((resolve, reject) => {
+                try {
+                    // Get configuration
+                    const configElement = document.getElementById('appConfig');
+                    if (!configElement) {
+                        throw new Error('Configuration element not found');
+                    }
+
+                    config = JSON.parse(configElement.textContent);
+                    
+                    // Initialize language
+                    const userLang = navigator.language.split('-')[0];
+                    const supportedLangs = Object.keys(config.languages);
+                    currentLang = supportedLangs.includes(userLang) ? userLang : 'pl';
+
+                    // Update language selector
+                    const languageSelector = document.getElementById('language-selector');
+                    if (languageSelector) {
+                        languageSelector.value = currentLang;
+                    }
+
+                    // Initialize AOS if available
+                    if (typeof AOS !== 'undefined') {
+                        AOS.init({ duration: 1000, once: true });
+                    }
+
+                    resolve();
+                } catch (error) {
+                    console.error('Initialization error:', error);
+                    reject(error);
+                }
+            });
+        }
+
+        // Initialize with loading state and error handling
+        document.addEventListener('DOMContentLoaded', () => {
+            const loadingState = document.getElementById('loading-state');
+            const errorState = document.getElementById('error-state');
+            
+            if (loadingState) loadingState.style.display = 'flex';
+
+            safeInitialize()
+                .then(() => {
+                    if (loadingState) loadingState.style.display = 'none';
+                    return updateLanguage(currentLang);
+                })
+                .catch(error => {
+                    console.error('Failed to initialize:', error);
+                    if (loadingState) loadingState.style.display = 'none';
+                    if (errorState) errorState.style.display = 'flex';
+                });
+        });
+
+        // Safe update language function
+        async function updateLanguage(lang) {
+            try {
+                if (!config || !config.languages || !config.languages[lang]) {
+                    throw new Error(`Invalid language: ${lang}`);
+                }
+
+                currentLang = lang;
+                document.documentElement.lang = lang;
+                
+                // Update all translatable elements
+                document.querySelectorAll('[data-lang-key]').forEach(element => {
+                    try {
+                        const key = element.getAttribute('data-lang-key');
+                        const value = getTranslation(key, lang);
+                        if (value) {
+                            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                                element.placeholder = value;
+                            } else {
+                                element.textContent = value;
+                            }
+                        }
+                    } catch (elementError) {
+                        console.warn(`Error updating element with key ${key}:`, elementError);
+                    }
+                });
+
+                // Update META tags
+                updateMetaTags(lang);
+
+                // Update prices if function exists
+                if (typeof updatePrices === 'function') {
+                    updatePrices();
+                }
+            } catch (error) {
+                console.error('Error updating language:', error);
+                throw error;
+            }
+        }
+    </script>
 </head>
 <body class="bg-gray-50">
     <!-- Language Selector -->
