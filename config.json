@@ -29,6 +29,185 @@
       "vatRate": 20
     }
   },
+  "translations": {
+    "navigation": {
+      "pl": {
+        "home": "Strona główna",
+        "modules": "Moduły",
+        "applications": "Zastosowania",
+        "pricing": "Cennik",
+        "contact": "Kontakt",
+        "documentation": "Dokumentacja"
+      },
+      "en": {
+        "home": "Home",
+        "modules": "Modules",
+        "applications": "Applications",
+        "pricing": "Pricing",
+        "contact": "Contact",
+        "documentation": "Documentation"
+      },
+      "de": {
+        "home": "Startseite",
+        "modules": "Module",
+        "applications": "Anwendungen",
+        "pricing": "Preise",
+        "contact": "Kontakt",
+        "documentation": "Dokumentation"
+      },
+      "fr": {
+        "home": "Accueil",
+        "modules": "Modules",
+        "applications": "Applications",
+        "pricing": "Tarifs",
+        "contact": "Contact",
+        "documentation": "Documentation"
+      }
+    },
+    "hero": {
+      "pl": {
+        "title": "Inteligentny System Monitoringu Rolniczego",
+        "subtitle": "Modułowe wieże monitorujące dla nowoczesnego rolnictwa",
+        "cta": "Zamów teraz"
+      },
+      "en": {
+        "title": "Intelligent Agricultural Monitoring System",
+        "subtitle": "Modular monitoring towers for modern agriculture",
+        "cta": "Order now"
+      },
+      "de": {
+        "title": "Intelligentes Landwirtschaftliches Überwachungssystem",
+        "subtitle": "Modulare Überwachungstürme für moderne Landwirtschaft",
+        "cta": "Jetzt bestellen"
+      },
+      "fr": {
+        "title": "Système Intelligent de Surveillance Agricole",
+        "subtitle": "Tours de surveillance modulaires pour l'agriculture moderne",
+        "cta": "Commander maintenant"
+      }
+    },
+    "products": {
+      "pl": {
+        "modules": {
+          "base": {
+            "name": "Moduł Bazowy",
+            "description": "Konstrukcja nośna z PVC z uniwersalnymi mocowaniami",
+            "features": [
+              "Wysokość 3-6m",
+              "Odporność na warunki atmosferyczne",
+              "System szybkiego montażu"
+            ],
+            "price": 9999
+          },
+          "power": {
+            "name": "Moduł Zasilania",
+            "description": "System fotowoltaiczny z akumulatorem",
+            "features": [
+              "Panel 200W",
+              "Akumulator 100Ah",
+              "Kontroler ładowania"
+            ],
+            "price": 4999
+          },
+          "monitoring": {
+            "name": "Moduł Monitoringu",
+            "description": "System kamer i czujników",
+            "features": [
+              "Kamera HD",
+              "Noktowizja",
+              "System PTZ"
+            ],
+            "price": 7999
+          }
+        },
+        "packages": {
+          "basic": {
+            "name": "Pakiet Podstawowy",
+            "price": 19999,
+            "description": "Idealny do rozpoczęcia monitoringu",
+            "features": [
+              "Moduł bazowy",
+              "Moduł zasilania",
+              "System mocowań",
+              "Podstawowa kamera"
+            ]
+          },
+          "standard": {
+            "name": "Pakiet Standard",
+            "price": 29999,
+            "description": "Rozszerzone możliwości monitoringu",
+            "features": [
+              "Wszystko z pakietu podstawowego",
+              "Moduł komunikacyjny",
+              "System PTZ",
+              "Moduł sensoryczny"
+            ]
+          },
+          "premium": {
+            "name": "Pakiet Premium",
+            "price": 39999,
+            "description": "Pełna funkcjonalność systemu",
+            "features": [
+              "Wszystko z pakietu standard",
+              "Moduł ochronny",
+              "Kamera termowizyjna",
+              "Wsparcie 24/7"
+            ]
+          }
+        }
+      },
+      "en": {
+        "modules": {
+          "base": {
+            "name": "Base Module",
+            "description": "PVC construction with universal mounts",
+            "features": [
+              "Height 3-6m",
+              "Weather resistant",
+              "Quick assembly system"
+            ],
+            "price": 2499
+          }
+        }
+      }
+    }
+  },
+  "currencies": {
+    "PLN": {
+      "symbol": "zł",
+      "decimal_places": 2,
+      "position": "after"
+    },
+    "EUR": {
+      "symbol": "€",
+      "decimal_places": 2,
+      "position": "before"
+    }
+  },
+  "exchangeRates": {
+    "base": "PLN",
+    "rates": {
+      "EUR": 0.25,
+      "PLN": 1.0,
+      "GBP": 0.2
+    }
+  },
+  "shipping": {
+    "countries": {
+      "PL": {
+        "name": "Polska",
+        "shipping_cost": 499
+      },
+      "DE": {
+        "name": "Deutschland",
+        "shipping_cost": 149
+      },
+      "FR": {
+        "name": "France",
+        "shipping_cost": 149
+      }
+    }
+  },
   "technical": {
     "pl": {
       "physical": {
@@ -64,298 +243,25 @@
             "value": "100Ah"
           }
         }
-      },
-      "communication": {
-        "title": "Komunikacja",
-        "specs": {
-          "wifi": {
-            "label": "Zasięg Wi-Fi",
-            "value": "do 100m"
-          },
-          "cellular": {
-            "label": "Łączność komórkowa",
-            "value": "4G/LTE"
-          },
-          "bandwidth": {
-            "label": "Przepustowość",
-            "value": "do 50 Mb/s"
-          }
-        }
       }
+    }
+  },
+  "contact": {
+    "pl": {
+      "address": "ul. Przykładowa 1, 00-000 Warszawa",
+      "phone": "+48 123 456 789",
+      "email": "kontakt@organicam.com",
+      "hours": "Pon-Pt: 9:00-17:00"
     },
     "en": {
-      "physical": {
-        "title": "Physical Parameters",
-        "specs": {
-          "height": {
-            "label": "Height",
-            "value": "3-6m (adjustable)"
-          },
-          "weight": {
-            "label": "Base weight",
-            "value": "45 kg"
-          },
-          "baseWidth": {
-            "label": "Base width",
-            "value": "60 cm"
-          }
-        }
-      }
+      "address": "1 Example St., 00-000 Warsaw, Poland",
+      "phone": "+48 123 456 789",
+      "email": "contact@organicam.com",
+      "hours": "Mon-Fri: 9:00-17:00"
     }
   },
-  "documentation": {
-    "sections": {
-      "pl": [
-        {
-          "id": "installation",
-          "title": "Instalacja"
-        },
-        {
-          "id": "configuration",
-          "title": "Konfiguracja"
-        },
-        {
-          "id": "maintenance",
-          "title": "Konserwacja"
-        }
-      ],
-      "en": [
-        {
-          "id": "installation",
-          "title": "Installation"
-        },
-        {
-          "id": "configuration
-    "navigation": {
-      "pl": {
-        "home": "Home",
-        "modules": "Moduły",
-        "applications": "Zastosowania",
-        "pricing": "Cennik",
-        "contact": "Kontakt"
-      },
-      "en": {
-        "home": "Home",
-        "modules": "Modules",
-        "applications": "Applications",
-        "pricing": "Pricing",
-        "contact": "Contact"
-      },
-      "de": {
-        "home": "Startseite",
-        "modules": "Module",
-        "applications": "Anwendungen",
-        "pricing": "Preise",
-        "contact": "Kontakt"
-      },
-      "fr": {
-        "home": "Accueil",
-        "modules": "Modules",
-        "applications": "Applications",
-        "pricing": "Tarifs",
-        "contact": "Contact"
-      }
-    },
-    "hero": {
-      "pl": {
-        "title": "Inteligentny System Monitoringu Rolniczego",
-        "subtitle": "Modułowe wieże monitorujące dla nowoczesnego rolnictwa",
-        "cta": "Zamów teraz"
-      },
-      "en": {
-        "title": "Intelligent Agricultural Monitoring System",
-        "subtitle": "Modular monitoring towers for modern agriculture",
-        "cta": "Order now"
-      },
-      "de": {
-        "title": "Intelligentes Landwirtschaftliches Überwachungssystem",
-        "subtitle": "Modulare Überwachungstürme für moderne Landwirtschaft",
-        "cta": "Jetzt bestellen"
-      },
-      "fr": {
-        "title": "Système Intelligent de Surveillance Agricole",
-        "subtitle": "Tours de surveillance modulaires pour l'agriculture moderne",
-        "cta": "Commander maintenant"
-      }
-    },
-    "modules": {
-      "pl": {
-        "title": "Moduły Systemu",
-        "base": {
-          "title": "Moduł Bazowy",
-          "description": "Konstrukcja nośna z PVC z uniwersalnymi mocowaniami",
-          "features": [
-            "Wysokość 3-6m",
-            "Odporność na warunki atmosferyczne",
-            "System szybkiego montażu"
-          ]
-        },
-        "power": {
-          "title": "Moduł Zasilania",
-          "description": "System fotowoltaiczny z akumulatorem",
-          "features": [
-            "Panel 200W",
-            "Akumulator 100Ah",
-            "Kontroler ładowania"
-          ]
-        },
-        "monitoring": {
-          "title": "Moduł Monitoringu",
-          "description": "System kamer i czujników",
-          "features": [
-            "Kamera HD",
-            "Noktowizja",
-            "System PTZ"
-          ]
-        }
-      },
-      "en": {
-        "title": "System Modules",
-        "base": {
-          "title": "Base Module",
-          "description": "PVC construction with universal mounts",
-          "features": [
-            "Height 3-6m",
-            "Weather resistant",
-            "Quick assembly system"
-          ]
-        },
-        "power": {
-          "title": "Power Module",
-          "description": "Photovoltaic system with battery",
-          "features": [
-            "200W Panel",
-            "100Ah Battery",
-            "Charge controller"
-          ]
-        },
-        "monitoring": {
-          "title": "Monitoring Module",
-          "description": "Camera and sensor system",
-          "features": [
-            "HD Camera",
-            "Night vision",
-            "PTZ System"
-          ]
-        }
-      }
-    },
-    "pricing": {
-      "pl": {
-        "title": "Cennik",
-        "packages": {
-          "basic": {
-            "name": "Pakiet Podstawowy",
-            "price": 9999,
-            "features": [
-              "Moduł bazowy",
-              "Moduł zasilania",
-              "System mocowań",
-              "Podstawowa kamera"
-            ]
-          },
-          "standard": {
-            "name": "Pakiet Standard",
-            "price": 14999,
-            "features": [
-              "Wszystko z pakietu podstawowego",
-              "Moduł komunikacyjny",
-              "System PTZ",
-              "Moduł sensoryczny"
-            ]
-          },
-          "premium": {
-            "name": "Pakiet Premium",
-            "price": 19999,
-            "features": [
-              "Wszystko z pakietu standard",
-              "Moduł ochronny",
-              "Kamera termowizyjna",
-              "Wsparcie 24/7"
-            ]
-          }
-        }
-      },
-      "en": {
-        "title": "Pricing",
-        "packages": {
-          "basic": {
-            "name": "Basic Package",
-            "price": 2499,
-            "features": [
-              "Base module",
-              "Power module",
-              "Mounting system",
-              "Basic camera"
-            ]
-          },
-          "standard": {
-            "name": "Standard Package",
-            "price": 3749,
-            "features": [
-              "Everything from Basic package",
-              "Communication module",
-              "PTZ system",
-              "Sensor module"
-            ]
-          },
-          "premium": {
-            "name": "Premium Package",
-            "price": 4999,
-            "features": [
-              "Everything from Standard package",
-              "Protection module",
-              "Thermal camera",
-              "24/7 support"
-            ]
-          }
-        }
-      }
-    }
-  },
-  "currencies": {
-    "PLN": {
-      "symbol": "zł",
-      "decimal_places": 2,
-      "position": "after"
-    },
-    "EUR": {
-      "symbol": "€",
-      "decimal_places": 2,
-      "position": "before"
-    },
-    "GBP": {
-      "symbol": "£",
-      "decimal_places": 2,
-      "position": "before"
-    }
-  },
-  "exchangeRates": {
-    "base": "PLN",
-    "rates": {
-      "EUR": 0.25,
-      "PLN": 1,
-      "GBP": 0.2
-    }
-  },
-  "shipping": {
-    "countries": {
-      "PL": {
-        "name": "Polska",
-        "shipping_cost": 499
-      },
-      "DE": {
-        "name": "Deutschland",
-        "shipping_cost": 149
-      },
-      "FR": {
-        "name": "France",
-        "shipping_cost": 149
-      },
-      "GB": {
-        "name": "United Kingdom",
-        "shipping_cost": 199
-      }
-    }
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-03-23"
   }
 }
