@@ -29,7 +29,103 @@
       "vatRate": 20
     }
   },
-  "translations": {
+  "technical": {
+    "pl": {
+      "physical": {
+        "title": "Parametry Fizyczne",
+        "specs": {
+          "height": {
+            "label": "Wysokość",
+            "value": "3-6m (regulowana)"
+          },
+          "weight": {
+            "label": "Waga podstawowa",
+            "value": "45 kg"
+          },
+          "baseWidth": {
+            "label": "Szerokość podstawy",
+            "value": "60 cm"
+          }
+        }
+      },
+      "power": {
+        "title": "System Zasilania",
+        "specs": {
+          "voltage": {
+            "label": "Napięcie",
+            "value": "12/24V DC"
+          },
+          "panel": {
+            "label": "Panel fotowoltaiczny",
+            "value": "200W"
+          },
+          "battery": {
+            "label": "Pojemność akumulatora",
+            "value": "100Ah"
+          }
+        }
+      },
+      "communication": {
+        "title": "Komunikacja",
+        "specs": {
+          "wifi": {
+            "label": "Zasięg Wi-Fi",
+            "value": "do 100m"
+          },
+          "cellular": {
+            "label": "Łączność komórkowa",
+            "value": "4G/LTE"
+          },
+          "bandwidth": {
+            "label": "Przepustowość",
+            "value": "do 50 Mb/s"
+          }
+        }
+      }
+    },
+    "en": {
+      "physical": {
+        "title": "Physical Parameters",
+        "specs": {
+          "height": {
+            "label": "Height",
+            "value": "3-6m (adjustable)"
+          },
+          "weight": {
+            "label": "Base weight",
+            "value": "45 kg"
+          },
+          "baseWidth": {
+            "label": "Base width",
+            "value": "60 cm"
+          }
+        }
+      }
+    }
+  },
+  "documentation": {
+    "sections": {
+      "pl": [
+        {
+          "id": "installation",
+          "title": "Instalacja"
+        },
+        {
+          "id": "configuration",
+          "title": "Konfiguracja"
+        },
+        {
+          "id": "maintenance",
+          "title": "Konserwacja"
+        }
+      ],
+      "en": [
+        {
+          "id": "installation",
+          "title": "Installation"
+        },
+        {
+          "id": "configuration
     "navigation": {
       "pl": {
         "home": "Home",
@@ -217,14 +313,29 @@
       }
     }
   },
-  "exchangeRates": {
+  "currencies": {
     "PLN": {
-      "EUR": 0.25,
-      "GBP": 0.2
+      "symbol": "zł",
+      "decimal_places": 2,
+      "position": "after"
     },
     "EUR": {
-      "PLN": 4.0,
-      "GBP": 0.8
+      "symbol": "€",
+      "decimal_places": 2,
+      "position": "before"
+    },
+    "GBP": {
+      "symbol": "£",
+      "decimal_places": 2,
+      "position": "before"
+    }
+  },
+  "exchangeRates": {
+    "base": "PLN",
+    "rates": {
+      "EUR": 0.25,
+      "PLN": 1,
+      "GBP": 0.2
     }
   },
   "shipping": {
