@@ -380,7 +380,7 @@
         
         async function loadConfig() {
             try {
-                const response = await fetch('/local.json');
+                const response = await fetch('/config.json');
                 config = await response.json();
                 await updateLanguage(currentLang);
             } catch (error) {
@@ -495,11 +495,9 @@
             const vatRate = config.languages[currentLang].vatRate / 100;
             const vat = subtotal * vatRate;
             const total = subtotal + vat;
-            const currencySymbol = config.languages[currentLang].currencySymbol;
-            
-            document.getElementById('subtotal').textContent = `${subtotal.toFixed(2)} ${currencySymbol}`;
-            document.getElementById('vat').textContent = `${vat.toFixed(2)} ${currencySymbol}`;
-            document.getElementById('total').textContent = `${total.toFixed(2)} ${currencySymbol}`;
+            document.getElementById('subtotal').textContent = `${subtotal.toFixed(2)} ${config.languages[currentLang].currencySymbol}`;
+            document.getElementById('vat').textContent = `${vat.toFixed(2)} ${config.languages[currentLang].currencySymbol}`;
+            document.getElementById('total').textContent = `${total.toFixed(2)} ${config.languages[currentLang].currencySymbol}`;
         }
 
         // Shipping calculator
@@ -584,10 +582,10 @@
             const metaKeywords = document.querySelector('meta[name="keywords"]');
             
             const descriptions = {
-                pl: "OrganiCAM - inteligentny system monitoringu rolniczego. Modułowe wieże monitorujące dla nowoczesnego rolnictwa.",
-                en: "OrganiCAM - intelligent agricultural monitoring system. Modular monitoring towers for modern agriculture.",
-                de: "OrganiCAM - intelligentes landwirtschaftliches Überwachungssystem. Modulare Überwachungstürme für moderne Landwirtschaft.",
-                fr: "OrganiCAM - système intelligent de surveillance agricole. Tours de surveillance modulaires pour l'agriculture moderne."
+                pl: "OrganicAM - inteligentny system monitoringu rolniczego. Modułowe wieże monitorujące dla nowoczesnego rolnictwa.",
+                en: "OrganicAM - intelligent agricultural monitoring system. Modular monitoring towers for modern agriculture.",
+                de: "OrganicAM - intelligentes landwirtschaftliches Überwachungssystem. Modulare Überwachungstürme für moderne Landwirtschaft.",
+                fr: "OrganicAM - système intelligent de surveillance agricole. Tours de surveillance modulaires pour l'agriculture moderne."
             };
             
             const keywords = {
@@ -647,5 +645,6 @@
         // Initialize everything when the page loads
         window.addEventListener('load', initializePage);
     </script>
+    
 </body>
 </html>
