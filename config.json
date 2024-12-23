@@ -30,238 +30,643 @@
     }
   },
   "translations": {
-    "navigation": {
+    "common": {
       "pl": {
-        "home": "Strona główna",
-        "modules": "Moduły",
-        "applications": "Zastosowania",
-        "pricing": "Cennik",
-        "contact": "Kontakt",
-        "documentation": "Dokumentacja"
+        "addToCart": "Dodaj do koszyka",
+        "orderNow": "Zamów teraz",
+        "readMore": "Czytaj więcej",
+        "learnMore": "Dowiedz się więcej",
+        "specifications": "Specyfikacja",
+        "features": "Funkcje",
+        "description": "Opis",
+        "price": "Cena",
+        "total": "Suma",
+        "subtotal": "Suma częściowa",
+        "vat": "VAT",
+        "shipping": "Dostawa",
+        "continue": "Kontynuuj",
+        "back": "Wstecz",
+        "save": "Zapisz",
+        "cancel": "Anuluj",
+        "edit": "Edytuj",
+        "delete": "Usuń",
+        "loading": "Ładowanie...",
+        "error": "Błąd"
       },
       "en": {
-        "home": "Home",
-        "modules": "Modules",
-        "applications": "Applications",
-        "pricing": "Pricing",
-        "contact": "Contact",
-        "documentation": "Documentation"
+        "addToCart": "Add to cart",
+        "orderNow": "Order now",
+        "readMore": "Read more",
+        "learnMore": "Learn more",
+        "specifications": "Specifications",
+        "features": "Features",
+        "description": "Description",
+        "price": "Price",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "vat": "VAT",
+        "shipping": "Shipping",
+        "continue": "Continue",
+        "back": "Back",
+        "save": "Save",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "delete": "Delete",
+        "loading": "Loading...",
+        "error": "Error"
       },
       "de": {
-        "home": "Startseite",
-        "modules": "Module",
-        "applications": "Anwendungen",
-        "pricing": "Preise",
-        "contact": "Kontakt",
-        "documentation": "Dokumentation"
+        "addToCart": "In den Warenkorb",
+        "orderNow": "Jetzt bestellen",
+        "readMore": "Mehr lesen",
+        "learnMore": "Mehr erfahren",
+        "specifications": "Spezifikationen",
+        "features": "Funktionen",
+        "description": "Beschreibung",
+        "price": "Preis",
+        "total": "Gesamt",
+        "subtotal": "Zwischensumme",
+        "vat": "MwSt",
+        "shipping": "Versand",
+        "continue": "Weiter",
+        "back": "Zurück",
+        "save": "Speichern",
+        "cancel": "Abbrechen",
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "loading": "Laden...",
+        "error": "Fehler"
       },
       "fr": {
-        "home": "Accueil",
-        "modules": "Modules",
-        "applications": "Applications",
-        "pricing": "Tarifs",
-        "contact": "Contact",
-        "documentation": "Documentation"
-      }
-    },
-    "hero": {
-      "pl": {
-        "title": "Inteligentny System Monitoringu Rolniczego",
-        "subtitle": "Modułowe wieże monitorujące dla nowoczesnego rolnictwa",
-        "cta": "Zamów teraz"
-      },
-      "en": {
-        "title": "Intelligent Agricultural Monitoring System",
-        "subtitle": "Modular monitoring towers for modern agriculture",
-        "cta": "Order now"
-      },
-      "de": {
-        "title": "Intelligentes Landwirtschaftliches Überwachungssystem",
-        "subtitle": "Modulare Überwachungstürme für moderne Landwirtschaft",
-        "cta": "Jetzt bestellen"
-      },
-      "fr": {
-        "title": "Système Intelligent de Surveillance Agricole",
-        "subtitle": "Tours de surveillance modulaires pour l'agriculture moderne",
-        "cta": "Commander maintenant"
+        "addToCart": "Ajouter au panier",
+        "orderNow": "Commander maintenant",
+        "readMore": "Lire la suite",
+        "learnMore": "En savoir plus",
+        "specifications": "Spécifications",
+        "features": "Caractéristiques",
+        "description": "Description",
+        "price": "Prix",
+        "total": "Total",
+        "subtotal": "Sous-total",
+        "vat": "TVA",
+        "shipping": "Livraison",
+        "continue": "Continuer",
+        "back": "Retour",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "loading": "Chargement...",
+        "error": "Erreur"
       }
     },
     "products": {
-      "pl": {
+      "de": {
         "modules": {
           "base": {
-            "name": "Moduł Bazowy",
-            "description": "Konstrukcja nośna z PVC z uniwersalnymi mocowaniami",
+            "name": "Basismodul",
+            "description": "PVC-Konstruktion mit universellen Halterungen",
             "features": [
-              "Wysokość 3-6m",
-              "Odporność na warunki atmosferyczne",
-              "System szybkiego montażu"
+              "Höhe 3-6m",
+              "Wetterbeständig",
+              "Schnellmontagesystem"
             ],
-            "price": 9999
+            "price": 2499
           },
           "power": {
-            "name": "Moduł Zasilania",
-            "description": "System fotowoltaiczny z akumulatorem",
+            "name": "Energiemodul",
+            "description": "Photovoltaiksystem mit Akku",
             "features": [
-              "Panel 200W",
-              "Akumulator 100Ah",
-              "Kontroler ładowania"
+              "200W Panel",
+              "100Ah Akku",
+              "Laderegler"
             ],
-            "price": 4999
+            "price": 1249
           },
           "monitoring": {
-            "name": "Moduł Monitoringu",
-            "description": "System kamer i czujników",
+            "name": "Überwachungsmodul",
+            "description": "Kamera- und Sensorsystem",
             "features": [
-              "Kamera HD",
-              "Noktowizja",
-              "System PTZ"
+              "HD-Kamera",
+              "Nachtsicht",
+              "PTZ-System"
             ],
-            "price": 7999
+            "price": 1999
           }
         },
         "packages": {
           "basic": {
-            "name": "Pakiet Podstawowy",
-            "price": 19999,
-            "description": "Idealny do rozpoczęcia monitoringu",
+            "name": "Basis-Paket",
+            "price": 4999,
+            "description": "Ideal für den Einstieg in die Überwachung",
             "features": [
-              "Moduł bazowy",
-              "Moduł zasilania",
-              "System mocowań",
-              "Podstawowa kamera"
+              "Basismodul",
+              "Energiemodul",
+              "Montagesystem",
+              "Basiskamera"
             ]
           },
           "standard": {
-            "name": "Pakiet Standard",
-            "price": 29999,
-            "description": "Rozszerzone możliwości monitoringu",
+            "name": "Standard-Paket",
+            "price": 7499,
+            "description": "Erweiterte Überwachungsmöglichkeiten",
             "features": [
-              "Wszystko z pakietu podstawowego",
-              "Moduł komunikacyjny",
-              "System PTZ",
-              "Moduł sensoryczny"
+              "Alles aus dem Basis-Paket",
+              "Kommunikationsmodul",
+              "PTZ-System",
+              "Sensormodul"
             ]
           },
           "premium": {
-            "name": "Pakiet Premium",
-            "price": 39999,
-            "description": "Pełna funkcjonalność systemu",
+            "name": "Premium-Paket",
+            "price": 9999,
+            "description": "Volle Systemfunktionalität",
             "features": [
-              "Wszystko z pakietu standard",
-              "Moduł ochronny",
-              "Kamera termowizyjna",
-              "Wsparcie 24/7"
+              "Alles aus dem Standard-Paket",
+              "Schutzmodul",
+              "Wärmebildkamera",
+              "24/7 Support"
             ]
           }
         }
       },
-      "en": {
+      "fr": {
         "modules": {
           "base": {
-            "name": "Base Module",
-            "description": "PVC construction with universal mounts",
+            "name": "Module de Base",
+            "description": "Construction PVC avec supports universels",
             "features": [
-              "Height 3-6m",
-              "Weather resistant",
-              "Quick assembly system"
+              "Hauteur 3-6m",
+              "Résistant aux intempéries",
+              "Système de montage rapide"
             ],
             "price": 2499
+          },
+          "power": {
+            "name": "Module d'Alimentation",
+            "description": "Système photovoltaïque avec batterie",
+            "features": [
+              "Panneau 200W",
+              "Batterie 100Ah",
+              "Contrôleur de charge"
+            ],
+            "price": 1249
+          },
+          "monitoring": {
+            "name": "Module de Surveillance",
+            "description": "Système de caméras et de capteurs",
+            "features": [
+              "Caméra HD",
+              "Vision nocturne",
+              "Système PTZ"
+            ],
+            "price": 1999
+          }
+        },
+        "packages": {
+          "basic": {
+            "name": "Pack Basique",
+            "price": 4999,
+            "description": "Idéal pour débuter la surveillance",
+            "features": [
+              "Module de base",
+              "Module d'alimentation",
+              "Système de fixation",
+              "Caméra basique"
+            ]
+          },
+          "standard": {
+            "name": "Pack Standard",
+            "price": 7499,
+            "description": "Capacités de surveillance étendues",
+            "features": [
+              "Tout du pack basique",
+              "Module de communication",
+              "Système PTZ",
+              "Module de capteurs"
+            ]
+          },
+          "premium": {
+            "name": "Pack Premium",
+            "price": 9999,
+            "description": "Fonctionnalité complète du système",
+            "features": [
+              "Tout du pack standard",
+              "Module de protection",
+              "Caméra thermique",
+              "Support 24/7"
+            ]
           }
         }
       }
-    }
-  },
-  "currencies": {
-    "PLN": {
-      "symbol": "zł",
-      "decimal_places": 2,
-      "position": "after"
     },
-    "EUR": {
-      "symbol": "€",
-      "decimal_places": 2,
-      "position": "before"
-    }
-  },
-  "exchangeRates": {
-    "base": "PLN",
-    "rates": {
-      "EUR": 0.25,
-      "PLN": 1.0,
-      "GBP": 0.2
-    }
-  },
-  "shipping": {
-    "countries": {
-      "PL": {
-        "name": "Polska",
-        "shipping_cost": 499
-      },
-      "DE": {
-        "name": "Deutschland",
-        "shipping_cost": 149
-      },
-      "FR": {
-        "name": "France",
-        "shipping_cost": 149
-      }
-    }
-  },
-  "technical": {
-    "pl": {
-      "physical": {
-        "title": "Parametry Fizyczne",
-        "specs": {
-          "height": {
-            "label": "Wysokość",
-            "value": "3-6m (regulowana)"
-          },
-          "weight": {
-            "label": "Waga podstawowa",
-            "value": "45 kg"
-          },
-          "baseWidth": {
-            "label": "Szerokość podstawy",
-            "value": "60 cm"
+    "technical": {
+      "en": {
+        "physical": {
+          "title": "Physical Parameters",
+          "specs": {
+            "height": {
+              "label": "Height",
+              "value": "3-6m (adjustable)"
+            },
+            "weight": {
+              "label": "Base weight",
+              "value": "45 kg"
+            },
+            "baseWidth": {
+              "label": "Base width",
+              "value": "60 cm"
+            }
+          }
+        },
+        "power": {
+          "title": "Power System",
+          "specs": {
+            "voltage": {
+              "label": "Voltage",
+              "value": "12/24V DC"
+            },
+            "panel": {
+              "label": "Solar panel",
+              "value": "200W"
+            },
+            "battery": {
+              "label": "Battery capacity",
+              "value": "100Ah"
+            }
           }
         }
       },
-      "power": {
-        "title": "System Zasilania",
-        "specs": {
-          "voltage": {
-            "label": "Napięcie",
-            "value": "12/24V DC"
-          },
-          "panel": {
-            "label": "Panel fotowoltaiczny",
-            "value": "200W"
-          },
-          "battery": {
-            "label": "Pojemność akumulatora",
-            "value": "100Ah"
+      "de": {
+        "physical": {
+          "title": "Physische Parameter",
+          "specs": {
+            "height": {
+              "label": "Höhe",
+              "value": "3-6m (verstellbar)"
+            },
+            "weight": {
+              "label": "Basisgewicht",
+              "value": "45 kg"
+            },
+            "baseWidth": {
+              "label": "Basisbreite",
+              "value": "60 cm"
+            }
+          }
+        },
+        "power": {
+          "title": "Energiesystem",
+          "specs": {
+            "voltage": {
+              "label": "Spannung",
+              "value": "12/24V DC"
+            },
+            "panel": {
+              "label": "Solarpanel",
+              "value": "200W"
+            },
+            "battery": {
+              "label": "Akkukapazität",
+              "value": "100Ah"
+            }
+          }
+        }
+      },
+      "fr": {
+        "physical": {
+          "title": "Paramètres Physiques",
+          "specs": {
+            "height": {
+              "label": "Hauteur",
+              "value": "3-6m (ajustable)"
+            },
+            "weight": {
+              "label": "Poids de base",
+              "value": "45 kg"
+            },
+            "baseWidth": {
+              "label": "Largeur de base",
+              "value": "60 cm"
+            }
+          }
+        },
+        "power": {
+          "title": "Système d'Alimentation",
+          "specs": {
+            "voltage": {
+              "label": "Tension",
+              "value": "12/24V DC"
+            },
+            "panel": {
+              "label": "Panneau solaire",
+              "value": "200W"
+            },
+            "battery": {
+              "label": "Capacité de la batterie",
+              "value": "100Ah"
+            }
           }
         }
       }
-    }
-  },
-  "contact": {
-    "pl": {
-      "address": "ul. Przykładowa 1, 00-000 Warszawa",
-      "phone": "+48 123 456 789",
-      "email": "kontakt@organicam.com",
-      "hours": "Pon-Pt: 9:00-17:00"
     },
-    "en": {
-      "address": "1 Example St., 00-000 Warsaw, Poland",
-      "phone": "+48 123 456 789",
-      "email": "contact@organicam.com",
-      "hours": "Mon-Fri: 9:00-17:00"
+    "contact": {
+      "de": {
+        "address": "Beispielstraße 1, 00-000 Warschau, Polen",
+        "phone": "+48 123 456 789",
+        "email": "kontakt@organicam.de",
+        "hours": "Mo-Fr: 9:00-17:00"
+      },
+      "fr": {
+        "address": "1 Rue Example, 00-000 Varsovie, Pologne",
+        "phone": "+48 123 456 789",
+        "email": "contact@organicam.fr",
+        "hours": "Lun-Ven: 9:00-17:00"
+      }
+    },
+    "errors": {
+      "pl": {
+        "loading": "Błąd podczas ładowania",
+        "notFound": "Nie znaleziono",
+        "serverError": "Błąd serwera",
+        "validation": "Błąd walidacji",
+        "required": "To pole jest wymagane",
+        "invalidEmail": "Nieprawidłowy adres email",
+        "invalidPhone": "Nieprawidłowy numer telefonu"
+      },
+      "en": {
+        "loading": "Loading error",
+        "notFound": "Not found",
+        "serverError": "Server error",
+        "validation": "Validation error",
+        "required": "This field is required",
+        "invalidEmail": "Invalid email address",
+        "invalidPhone": "Invalid phone number"
+      },
+      "de": {
+        "loading": "Ladefehler",
+        "notFound": "Nicht gefunden",
+        "serverError": "Serverfehler",
+        "validation": "Validierungsfehler",
+        "required": "Dieses Feld ist erforderlich",
+        "invalidEmail": "Ungültige E-Mail-Adresse",
+        "invalidPhone": "Ungültige Telefonnummer"
+      },
+      "fr": {
+        "loading": "Erreur de chargement",
+        "notFound": "Non trouvé",
+        "serverError": "Erreur serveur",
+        "validation": "Erreur de validation",
+        "required": "Ce champ est obligatoire",
+        "invalidEmail": "Adresse e-mail invalide",
+        "invalidPhone": "Numéro de téléphone invalide"
+      }
+    },
+    "forms": {
+      "pl": {
+        "name": "Imię i nazwisko",
+        "email": "Adres email",
+        "phone": "Telefon",
+        "message": "Wiadomość",
+        "subject": "Temat",
+        "company": "Firma",
+        "submit": "Wyślij",
+        "clear": "Wyczyść"
+      },
+      "en": {
+        "name": "Full name",
+        "email": "Email address",
+        "phone": "Phone",
+        "message": "Message",
+        "subject": "Subject",
+        "company": "Company",
+        "submit": "Submit",
+        "clear": "Clear"
+      },
+      "de": {
+        "name": "Vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "phone": "Telefon",
+        "message": "Nachricht",
+        "subject": "Betreff",
+        "company": "Firma",
+        "submit": "Absenden",
+        "clear": "Löschen"
+      },
+      "fr": {
+        "name": "Nom complet",
+        "email": "Adresse e-mail",
+        "phone": "Téléphone",
+        "message": "Message",
+        "subject": "Sujet",
+        "company": "Entreprise",
+        "submit": "Envoyer",
+        "clear": "Effacer"
+      }
+    },
+    "checkout": {
+      "pl": {
+        "cart": "Koszyk",
+        "shipping": "Dostawa",
+        "payment": "Płatność",
+        "summary": "Podsumowanie",
+        "billingAddress": "Adres rozliczeniowy",
+        "shippingAddress": "Adres dostawy",
+        "paymentMethod": "Metoda płatności",
+        "cardNumber": "Numer karty",
+        "expiryDate": "Data ważności",
+        "cvv": "CVV",
+        "placeOrder": "Złóż zamówienie",
+        "termsAccept": "Akceptuję regulamin"
+      },
+      "en": {
+        "cart": "Cart",
+        "shipping": "Shipping",
+        "payment": "Payment",
+        "summary": "Summary",
+        "billingAddress": "Billing Address",
+        "shippingAddress": "Shipping Address",
+        "paymentMethod": "Payment Method",
+        "cardNumber": "Card Number",
+        "expiryDate": "Expiry Date",
+        "cvv": "CVV",
+        "placeOrder": "Place Order",
+        "termsAccept": "I accept the terms and conditions"
+      },
+      "de": {
+        "cart": "Warenkorb",
+        "shipping": "Versand",
+        "payment": "Zahlung",
+        "summary": "Zusammenfassung",
+        "billingAddress": "Rechnungsadresse",
+        "shippingAddress": "Lieferadresse",
+        "paymentMethod": "Zahlungsmethode",
+        "cardNumber": "Kartennummer",
+        "expiryDate": "Gültig bis",
+        "cvv": "CVV",
+        "placeOrder": "Bestellen",
+        "termsAccept": "Ich akzeptiere die AGB"
+      },
+      "fr": {
+        "cart": "Panier",
+        "shipping": "Livraison",
+        "payment": "Paiement",
+        "summary": "Résumé",
+        "billingAddress": "Adresse de facturation",
+        "shippingAddress": "Adresse de livraison",
+        "paymentMethod": "Moyen de paiement",
+        "cardNumber": "Numéro de carte",
+        "expiryDate": "Date d'expiration",
+        "cvv": "CVV",
+        "placeOrder": "Commander",
+        "termsAccept": "J'accepte les conditions générales"
+      }
+    },
+    "documentation": {
+      "pl": {
+        "sections": [
+          {
+            "id": "instalacja",
+            "title": "Instalacja",
+            "content": "# Instrukcja instalacji\n\n## Wymagania systemowe\n- Stabilne podłoże\n- Dostęp do zasilania\n- Zasięg sieci komórkowej"
+          },
+          {
+            "id": "konfiguracja",
+            "title": "Konfiguracja",
+            "content": "# Konfiguracja systemu\n\n## Pierwsze uruchomienie\n1. Podłącz zasilanie\n2. Skonfiguruj sieć\n3. Ustaw parametry monitoringu"
+          }
+        ]
+      },
+      "en": {
+        "sections": [
+          {
+            "id": "installation",
+            "title": "Installation",
+            "content": "# Installation Guide\n\n## System Requirements\n- Stable foundation\n- Power access\n- Cellular network coverage"
+          },
+          {
+            "id": "configuration",
+            "title": "Configuration",
+            "content": "# System Configuration\n\n## First Launch\n1. Connect power\n2. Configure network\n3. Set monitoring parameters"
+          }
+        ]
+      },
+      "de": {
+        "sections": [
+          {
+            "id": "installation",
+            "title": "Installation",
+            "content": "# Installationsanleitung\n\n## Systemanforderungen\n- Stabiles Fundament\n- Stromversorgung\n- Mobilfunknetzabdeckung"
+          },
+          {
+            "id": "konfiguration",
+            "title": "Konfiguration",
+            "content": "# Systemkonfiguration\n\n## Erstinbetriebnahme\n1. Stromversorgung anschließen\n2. Netzwerk konfigurieren\n3. Überwachungsparameter einstellen"
+          }
+        ]
+      },
+      "fr": {
+        "sections": [
+          {
+            "id": "installation",
+            "title": "Installation",
+            "content": "# Guide d'installation\n\n## Exigences système\n- Fondation stable\n- Accès à l'alimentation\n- Couverture réseau mobile"
+          },
+          {
+            "id": "configuration",
+            "title": "Configuration",
+            "content": "# Configuration du système\n\n## Premier démarrage\n1. Connecter l'alimentation\n2. Configurer le réseau\n3. Définir les paramètres de surveillance"
+          }
+        ]
+      }
+    },
+    "applications": {
+      "pl": {
+        "agricultural": {
+          "title": "Rolnictwo",
+          "description": "Monitoring upraw i procesów rolniczych",
+          "features": [
+            "Kontrola wzrostu roślin",
+            "Monitoring nawadniania",
+            "Wykrywanie szkodników"
+          ]
+        },
+        "livestock": {
+          "title": "Hodowla",
+          "description": "Ochrona i monitoring zwierząt hodowlanych",
+          "features": [
+            "Monitoring dobrostanu",
+            "Ochrona przed drapieżnikami",
+            "Kontrola zachowania stada"
+          ]
+        }
+      },
+      "en": {
+        "agricultural": {
+          "title": "Agriculture",
+          "description": "Crop and agricultural process monitoring",
+          "features": [
+            "Plant growth control",
+            "Irrigation monitoring",
+            "Pest detection"
+          ]
+        },
+        "livestock": {
+          "title": "Livestock",
+          "description": "Protection and monitoring of livestock",
+          "features": [
+            "Welfare monitoring",
+            "Predator protection",
+            "Herd behavior control"
+          ]
+        }
+      },
+      "de": {
+        "agricultural": {
+          "title": "Landwirtschaft",
+          "description": "Überwachung von Anbau und landwirtschaftlichen Prozessen",
+          "features": [
+            "Pflanzenwachstumskontrolle",
+            "Bewässerungsüberwachung",
+            "Schädlingserkennung"
+          ]
+        },
+        "livestock": {
+          "title": "Viehzucht",
+          "description": "Schutz und Überwachung von Nutztieren",
+          "features": [
+            "Wohlbefindensüberwachung",
+            "Raubtier-Schutz",
+            "Herdenverhaltenskontrolle"
+          ]
+        }
+      },
+      "fr": {
+        "agricultural": {
+          "title": "Agriculture",
+          "description": "Surveillance des cultures et des processus agricoles",
+          "features": [
+            "Contrôle de la croissance des plantes",
+            "Surveillance de l'irrigation",
+            "Détection des parasites"
+          ]
+        },
+        "livestock": {
+          "title": "Élevage",
+          "description": "Protection et surveillance du bétail",
+          "features": [
+            "Surveillance du bien-être",
+            "Protection contre les prédateurs",
+            "Contrôle du comportement du troupeau"
+          ]
+        }
+      }
     }
   },
   "meta": {
     "version": "1.0.0",
-    "lastUpdated": "2024-03-23"
+    "lastUpdated": "2024-03-23",
+    "supportedLanguages": ["pl", "en", "de", "fr"],
+    "defaultLanguage": "pl"
   }
 }
